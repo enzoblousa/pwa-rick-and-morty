@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icons/favicon.ico">
+    <meta name="theme-color" content="#11B981">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rick and Morty PWA</h1>
+            <p>Explore o universo de Rick and Morty</p>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Digite o nome do personagem...">
+                    <button id="searchButton">Pesquisar</button>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <div id="loading" class="hidden">
+                    <p>Carregando...</p>
+                </div>
+                <div id="error" class="hidden">
+                    <p>Erro ao carregar dados. Tente novamente.</p>
+                </div>
+                <div id="results" class="characters-grid"></div>
+            </section>
+
+            <section id="characterModal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="characterDetails"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dados fornecidos por <a href="https://rickandmortyapi.com/" target="_blank">The Rick and Morty API</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

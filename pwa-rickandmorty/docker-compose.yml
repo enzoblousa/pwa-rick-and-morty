@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  pwa-app:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: rickandmorty-pwa
+    restart: unless-stopped
+    networks:
+      - pwa-network
+
+networks:
+  pwa-network:
+    driver: bridge
