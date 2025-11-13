@@ -23,6 +23,5 @@ Um Progressive Web App para explorar personagens do universo Rick and Morty usan
 ### Com Docker Compose e Docker Desktop(instalados e abertos) 
 ### Digite no terminal do diretório \docs(onde o arquivo docker-compose.yml 
 ```bash
-  - docker-coompose up -d
 docker-compose up -d 
 
