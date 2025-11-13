@@ -7,9 +7,5 @@ services:
       - "3000:80"
     container_name: rickandmorty-pwa
     restart: unless-stopped
-    networks:
-      - pwa-network
-
-networks:
-  pwa-network:
-    driver: bridge
+    volumes:
+      - ./:/usr/share/nginx/html  # Para desenvolvimento (opcional)
