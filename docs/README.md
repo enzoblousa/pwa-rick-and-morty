@@ -1,12 +1,12 @@
 # Integrantes do grupo: 
   1. Gabriel Matheus Silva Souza
   2. Enzo Spindola Baiocchi Lousa
-  3. Davi Arthur Altino
+  3. Davi Arthur Altino 
   4. Lucas Mendes Carvalho
   5. Pedro Henrique Silva Vasconcelos
   6. Caizo Acleremis Alves de Souza 
   
-# Rick and Morty PWs
+# Rick and Morty PWA
 
 Um Progressive Web App para explorar personagens do universo Rick and Morty usando a API pública.
 
@@ -20,8 +20,9 @@ Um Progressive Web App para explorar personagens do universo Rick and Morty usan
 
 ## Como executar
 
-### Com Docker Compose e Docker Desktop 
-### Digite no terminal da root do projeto
+### Com Docker Compose e Docker Desktop(instalados e abertos) 
+### Digite no terminal do diretório \docs(onde o arquivo docker-compose.yml 
 ```bash
+  - docker-coompose up -d
 docker-compose up -d 
 
