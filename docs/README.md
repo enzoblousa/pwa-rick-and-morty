@@ -1,10 +1,10 @@
 # Integrantes do grupo: 
-  1. Gabriel Matheus Silva Souza
-  2. Enzo Spindola Baiocchi Lousa
-  3. Davi Arthur Altino 
-  4. Lucas Mendes Carvalho
-  5. Pedro Henrique Silva Vasconcelos
-  6. Caizo Acleremis Alves de Souza 
+  1. Gabriel Matheus Silva Souza 22453580
+  2. Enzo Spindola Baiocchi Lousa 22452943
+  3. Davi Arthur Altino 22453304
+  4. Lucas Mendes Carvalho 2245300
+  5. Pedro Henrique Silva Vasconcelos 22453225
+  6. Caizo Acleremis Alves de Souza 22451144
   
 # Rick and Morty PWA
 
